@@ -1,0 +1,18 @@
+{
+    "version": "3.61",
+    "description": "UsbEAm Hosts Editor",
+    "homepage": "https://www.dogfight360.com/blog/475/",
+    "url": "https://www.dogfight360.com/blog/wp-content/uploads/2017/03/UsbEAm-Hosts-Editor-v3.61_%E8%A7%A3%E5%8E%8B%E5%AF%86%E7%A0%81dogfight360.zip#/dl.bin",
+    "hash": "79491b9ee5d55bd3bb370d01faff2100e3290233080b0c6b63133f235111557b",
+    "pre_install": [
+        "mv $dir/dl.bin $dir/dl.zip",
+        "7z x $dir/dl.zip -pdogfight360 \"-o$dir\"",
+        "rm $dir/dl.zip"
+    ],
+    "shortcuts": [
+        [
+            "UsbEAm Hosts Editor/UsbEAm Hosts Editor v3.61.exe",
+            "UsbEAm Hosts Editor"
+        ]
+    ]
+}
